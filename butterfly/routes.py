@@ -26,7 +26,8 @@ import tornado.websocket
 from mimetypes import guess_type
 from collections import defaultdict
 from butterfly import url, Route, utils, __version__
-from butterfly.terminal import Terminal
+# from butterfly.terminal import Terminal
+from rancher.rancher import Terminal
 
 
 def u(s):
